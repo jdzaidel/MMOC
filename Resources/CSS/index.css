@@ -7,13 +7,32 @@
   text-align: left;
   Color: Purple;
   font-family: cursive;
+  margin-left: 40px;
 }
-
+p{
+   display: Inline-block;
+ }
 #what_paragraph{
   text-align: Left;
-
+  width: 400px;
+  background-color: lightblue;
+  padding: 30px;
+  overflow: scroll;
+  margin: 40px;
 }
+#where_paragraph{
+  text-align: Left;
+  width: 400px;
+  background-color: lightblue;
+  padding: 30px;
+  overflow: scroll;
+  margin: 40px;
+}
+
 #header{
   background-color: LightBlue;
   Height: 120px;
+}
+#site_navigation{
+  font-family: cursive;
 }
