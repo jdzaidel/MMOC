@@ -1,13 +1,32 @@
 * {
   font-family: Arial;
-  background-color: eggshell;
+  background-color: #F3F2EC;
   text-align: Center;
 }
+
+.santa_01{
+  width: 120px;
+  height: auto;
+}
+body{
+
+}
+.header {
+  background-color: LightBlue;
+  Height: 120px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+
 #What{
   text-align: left;
   Color: Purple;
   font-family: cursive;
   margin-left: 40px;
+  position: static;
+  margin-top: 120px;
 }
 p{
    display: Inline-block;
@@ -18,7 +37,7 @@ p{
   background-color: lightblue;
   padding: 30px;
   overflow: scroll;
-  margin: 40px;
+
 }
 #where_paragraph{
   text-align: Left;
@@ -26,13 +45,34 @@ p{
   background-color: lightblue;
   padding: 30px;
   overflow: scroll;
-  margin: 40px;
 }
 
-#header{
-  background-color: LightBlue;
-  Height: 120px;
-}
+
 #site_navigation{
   font-family: cursive;
+}
+h4{
+  font-family: helvetica;
+  color: #3FB6BF;
+  font-size: 18px;
+}
+
+img{
+  width: 400px;
+}
+@Media only screen and (max-width: 480px){
+  img{
+    width: 100%;
+  }
+  p{
+    max-width: 320px;
+    margin: 0px;
+  }
+  h1{
+  font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 960px){
+
 }
